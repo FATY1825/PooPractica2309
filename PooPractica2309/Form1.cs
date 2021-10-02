@@ -29,8 +29,11 @@ namespace PooPractica2309
 
 
             //Mostrar datos del cliente1
-             MessageBox.Show(cliente1.getClienteId() + cliente1.getNames() + cliente1._address + cliente1.getTelephon() 
-                 + cliente1.getMobile())
+             MessageBox.Show(cliente1.getClienteId() + " " + cliente1.getNames() + " " + cliente1._address + " " 
+                 + cliente1.getTelephon() + " " + cliente1.getMobile());
+
+             MessageBox.Show(cliente2.getClienteId() + " " +  cliente2.getNames() +  " " + cliente2._address + " "
+                    + cliente2.getTelephon() + " " + cliente2.getMobile());
 
             //Mediante metodo de propiedad 
             //creamos objeto cliente
